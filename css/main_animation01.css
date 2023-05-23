@@ -1,0 +1,45 @@
+#main_visual {
+    position: relative;
+    height: 900px;
+    background: url(../images/main_kv_bg_w.jpg) no-repeat center center/cover;
+}
+
+#main_visual .num {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    margin: 0 0 0 585px;
+    transform: translate(-100%, 0);
+    font-size: 50px;
+}
+
+#main_visual .mode1 {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    margin: 0 0 0 585px;
+    transform: translate(-100%, 0);
+    font-size: 50px;
+}
+
+#main_visual figure {
+    position: relative;
+    height: 900px;
+    overflow: hidden;
+}
+
+#main_visual figure .slogan {
+    top: 200px;
+}
+
+#main_visual figure .car {
+    position: absolute;
+    top: 550px;
+    left: 50%;
+    transform: translate(100%, -50%);
+    transition: 0.3s 0.3s;
+}
+
+#main_visual figure.on .car {
+    transform: translate(-50%, -50%);
+}
